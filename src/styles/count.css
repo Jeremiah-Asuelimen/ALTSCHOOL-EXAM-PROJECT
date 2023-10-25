@@ -1,0 +1,58 @@
+#count-box { 
+    margin: 160px auto; 
+    width: 800px; 
+    height: 500px; 
+    font-weight: 700; 
+    font-size: 36px; 
+    padding-top: 80px; 
+    border-radius: 50px; 
+    background: linear-gradient(145deg, #7fffda, #6892af); 
+    box-shadow: 36px 36px 33px #3f596b, -36px -36px 33px #a7ebff; 
+  } 
+
+  #input { 
+    height: 40px; 
+    width: 300px; 
+    outline: none; 
+    font-size: 25px; 
+    padding-left: 30px; 
+  } 
+  .btn { 
+    font-size: 25px; 
+    margin-right: 14px; 
+    margin-top: 10px;
+    padding: 15px 25px; 
+    background-color:palegreen;
+    border: none; 
+    border-radius: 10px; 
+    cursor: pointer; 
+    text-align: center;
+    text-decoration: none;
+    color: white;
+  } 
+  .btn:hover { 
+    background-color: #45a049;
+    font-weight: 600;
+    
+  } 
+
+  #btn-decre:hover {
+    background-color: crimson;
+
+  }
+
+  #btn-re:hover {
+    background-color: blue;
+  }
+
+  #btn-input:hover{
+    background-color: khaki;
+  }
+
+  @media (max-width: 1024px) { 
+    #count-box { 
+      margin: 50px auto; 
+      height: 420px; 
+    } 
+  }
+ 
